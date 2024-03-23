@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Weather location="Latur" />
       <Weather location="Pune" />
-      <Weather location="Test" />
+      <Weather location="Mumbai" />
     </div>
   );
 }
