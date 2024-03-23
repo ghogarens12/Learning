@@ -1,0 +1,56 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+  
+  .weather {
+  display: flex;
+  /* flexdirection: column; */
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  }
+  
+  .weather-location {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  .weather-date {
+  font-size: 16px;
+  margin-bottom: 10px;
+  }
+  
+  .weather-temperature {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  .weather-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  }
+  
+  .weather-description {
+  font-size: 20px;
+  }
+  
+  @media screen and (max-width: 600px) {
+  .App {
+  flex-direction: column;
+  }
+  
+  .weather {
+  margin: 20px 0;
+  width: 100%;
+  }
+  }
